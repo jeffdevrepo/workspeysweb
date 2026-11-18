@@ -42,9 +42,9 @@ export function Header() {
                 >
                     <nav aria-label="Mobile navigation">
                         <ul className="flex flex-col gap-4">
-                            <li><a href="#" onClick={() => setIsMenuOpen(false)} className="font-medium text-sm block">Features</a></li>
-                            <li><a href="#" onClick={() => setIsMenuOpen(false)} className="font-medium text-sm block">Pricing</a></li>
-                            <li><a href="#" onClick={() => setIsMenuOpen(false)} className="font-medium text-sm block">About</a></li>
+                            <li><a href="#features" onClick={() => setIsMenuOpen(false)} className="font-medium text-sm block">Features</a></li>
+                            <li><a href="#pricing" onClick={() => setIsMenuOpen(false)} className="font-medium text-sm block">Pricing</a></li>
+                            <li><a href="#about" onClick={() => setIsMenuOpen(false)} className="font-medium text-sm block">About</a></li>
                         </ul>
                     </nav>
                     <div className="mt-4 flex flex-col gap-3 lg:hidden">
