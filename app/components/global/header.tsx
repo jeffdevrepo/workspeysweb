@@ -15,9 +15,9 @@ export function Header() {
                     <Image src="/logo/logo-dark.svg" alt="Workspeys Logo" width={200} height={30} className="w-[150px] lg:w-[175px] h-auto" />
                     <nav className="hidden md:block mx-auto">
                         <ul className="flex space-x-4">
-                            <li><a href="#" className="font-medium text-sm">Features</a></li>
-                            <li><a href="#" className="font-medium text-sm">Pricing</a></li>
-                            <li><a href="#" className="font-medium text-sm">About</a></li>
+                            <li><a href="#features" className="font-medium text-sm">Features</a></li>
+                            <li><a href="#pricing" className="font-medium text-sm">Pricing</a></li>
+                            <li><a href="#about" className="font-medium text-sm">About</a></li>
                         </ul>
                     </nav>
                     <div className="hidden md:flex space-x-3">

@@ -3,7 +3,7 @@ import { Button } from "../elements/button";
 
 export function Pricing() {
     return (
-        <section className="bg-background py-16 lg:py-24">
+        <section id="pricing" className="bg-background py-16 lg:py-24">
             <div className="max-w-[1200px] w-full mx-auto px-4">
                 <div className="text-center mb-8">
                     <small className="text-xs font-semibold text-muted uppercase tracking-widest mb-8">Pricing</small>

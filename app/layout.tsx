@@ -13,7 +13,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Workspeys",
+  title: "All-in-one freelancing platform | Workspeys",
   description: "All-in-one platform for freelancers to manage projects, track time, and handle invoices efficiently.",
   icons: {
     icon: [

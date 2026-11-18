@@ -2,7 +2,7 @@ import { FileText, FolderBookmark, Hourglass, ReceiptText } from "lucide-react";
 
 export function Features() {
     return (
-        <section className="bg-background py-16 lg:py-24">
+        <section id="features" className="bg-background py-16 lg:py-24">
             <div className="max-w-[1200px] w-full mx-auto px-4">
                 <div className="text-center space-y-3 mb-12">
                     {/* <p className="text-sm text-muted font-semibold mb-4">Features</p> */}
